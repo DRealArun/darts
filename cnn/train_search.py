@@ -18,6 +18,7 @@ from model_search import Network
 from architect import Architect
 from PIL import Image
 import random
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 
 parser = argparse.ArgumentParser("Common Argument Parser")
